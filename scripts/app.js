@@ -13,7 +13,7 @@ const quizData = [
             "Verkauf von Essen (z.B. bei Veranstaltungen)",
             "Verschönerung des Schulhofs"
         ],
-        correct: [0, 1, 2]
+        correct: [0, 1]
     },
     {
         question: "Wie heißt die Bank, die uns bei unserer Arbeit unterstützt?",
@@ -50,7 +50,7 @@ const quizData = [
         question: "Wo bestellen wir unsere Produkte?",
         type: "multiple",
         options: ["Transgourmet", "Metro", "Kaufland"],
-        correct: [0, 1]
+        correct: [0]
     },
     {
         question: "Kann man die Preise an den Automaten ändern?",
@@ -60,7 +60,7 @@ const quizData = [
             "Nein",
             "Ja, aber nur alle 2 Monate"
         ],
-        correct: [2]
+        correct: [0]
     },
     {
         question: "Welche Abteilungen gibt es? (mehrere Antworten möglich)",
@@ -73,7 +73,7 @@ const quizData = [
             "Schülervertretung",
             "Marketing"
         ],
-        correct: [0, 1, 2, 3, 5]
+        correct: [0, 2, 3, 5]
     },
     {
         question: "Wer befüllt die Automaten?",
@@ -83,7 +83,7 @@ const quizData = [
             "ausschließlich Lehrer",
             "Schüler unter Aufsicht von Lehrern"
         ],
-        correct: [2]
+        correct: [0]
     }
 ];
 
